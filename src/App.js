@@ -10,14 +10,15 @@ class App extends Component {
           {({prevStep, nextStep, steps, stage, completed}) => {
             return (
               <>
-                <Stepper.Steps>
-                  <Stepper.Step stage={stage} num={1}>Hello</Stepper.Step>
-                  <Stepper.Step stage={stage} num={2}>World</Stepper.Step>
-                  <Stepper.Step stage={stage} num={3}>I'm a tree</Stepper.Step>
-                </Stepper.Steps>
                 <Stepper.Progress
                   completed={completed}
                 />
+                <Stepper.Steps>
+                  <Stepper.Step stage={stage} num={1}>Step 1</Stepper.Step>
+                  <Stepper.Step stage={stage} num={2}>Step 2</Stepper.Step>
+                  <Stepper.Step stage={stage} num={3}>Step 3</Stepper.Step>
+                  <Stepper.Step stage={stage} num={4}>Finished!</Stepper.Step>
+                </Stepper.Steps>
                 <Stepper.Button
                   disabled={stage < 1}
                   onClick={prevStep}
