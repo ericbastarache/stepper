@@ -6,7 +6,7 @@ const StyledButton = styled.button`
     color: blue;
     padding: 15px 35px;
     margin-left: 30px;
-    background-color: #0000ff;
+    background-color: #000;
     opacity: ${props.disabled ? '0.4' : '1'}
     color: #fff;
     border-radius: 5px;
