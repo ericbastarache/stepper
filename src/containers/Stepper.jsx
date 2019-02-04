@@ -30,7 +30,6 @@ class Stepper extends React.Component {
       steps
     } = this.props;
     const completed = stage / steps;
-    console.log(completed);
     return this.props.children({
       nextStep: this.handleNextStep,
       prevStep: this.handlePrevStep,

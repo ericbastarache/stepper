@@ -11,7 +11,10 @@ class App extends Component {
             return (
               <>
                 <Stepper.Progress
+                  color='red'
+                  background='green'
                   completed={completed}
+                  rounded={false}
                 />
                 <Stepper.Steps>
                   <Stepper.Step stage={stage} num={1}>Step 1</Stepper.Step>
