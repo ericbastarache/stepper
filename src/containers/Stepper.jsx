@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from 'components/Button';
-import Steps from './Steps';
+import Steps from 'components/Steps';
 import Step from 'components/Step';
 import Progress from 'components/Progress';
 
